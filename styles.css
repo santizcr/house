@@ -1,0 +1,374 @@
+@font-face {
+  font-family: 'YourCustomFont'; /* Choose a name for your font */
+  src: url('Serati.ttf') format('truetype'); /* Replace with the actual path and font format */
+  /* You can add more src lines for different font formats (woff, woff2, etc.) for better browser compatibility */
+  font-weight: normal; /* Adjust as needed (normal, bold, etc.) */
+  font-style: normal;   /* Adjust as needed (normal, italic, etc.) */
+}
+
+.button {  /* Consistent with your other styles */
+  margin-top: 5px;
+  margin-left: 20px;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(20, 161, 215);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 16px; /* Adjust font size as needed */
+  cursor: pointer;   /* Change cursor to a pointer on hover */
+}
+
+.button:hover {
+    background-color: #1484b8; /* Darken the button on hover */
+}
+
+body {
+  font-size: 0; /* Corrected:  Setting to zero hides text.  Remove this or change */
+  margin: 0;
+  padding: 0;
+  font-family: 'YourCustomFont', sans-serif; /* Apply the font to the entire body */
+}
+
+.wrapper {
+  background-color: rgb(61, 61, 61);
+  background-size: 100%;
+  height: 1500px; /* Consider using min-height: 100vh */
+  width: 360px;
+}
+
+.blockmain {
+  height: 128px;
+  width: 360px;
+  display: flex;
+  overflow: scroll;
+}
+
+.container {
+  margin-top: 22px;
+  margin-left: 22px;
+  width: 90px;
+  height: 90px;
+  position: relative;
+}
+
+.container img {
+  max-width: 100%;
+  max-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  overflow: scroll;
+  position: absolute;
+}
+
+.textdiv {
+  margin-left: 10px;
+  margin-top: 21px;
+  height: 100px;
+  width: 260px;
+}
+
+.textdiv1 {
+  height: 50px;
+  width: 240px;
+}
+
+.textdiv2 {
+  margin-top: 12px;
+  height: 30px;
+  width: 240px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+.text {
+  font-weight: bold;
+  margin-top: 7px;
+  font-size: 18px;
+  font-family: 'YourCustomFont', sans-serif; /* Apply the font to specific elements */
+}
+
+.text1 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: 'YourCustomFont', sans-serif; /* Apply the font to specific elements */
+}
+
+.knopkabox {
+  height: 80px;
+  width: 360px;
+  display: flex;
+}
+
+.knopka {
+  background-color: #3d3d3d;
+  margin-left: 23px;
+  height: 55px;
+  width: 150px;
+  border-radius: 17px;
+  border: 1px solid #595959;
+  display: inline;
+  text-decoration: none;
+  font-family: 'YourCustomFont', sans-serif; /* Apply the font to specific elements */
+}
+
+.knopka1 {
+  background-color: #3d3d3d;
+  margin-left: 15px;
+  height: 55px;
+  width: 150px;
+  border-radius: 17px;
+  border: 1px solid #595959;
+  display: inline;
+  text-decoration: none;
+  font-family: 'YourCustomFont', sans-serif; /* Apply the font to specific elements */
+}
+
+
+
+.main2 {
+  background-color: #3d3d3d;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  height: 1300px; /* Consider removing fixed height */
+  width: 360px;
+  display: inline-block;
+}
+
+.png {
+  margin-left: 9px;
+  margin-top: 9px;
+  width: 340px;
+  height: 140px;
+  border-radius: 25px;
+}
+
+.png img {
+  min-height: 145px;
+  min-width: 340px;
+  width: 340px;
+  height: 145px;
+  border-radius: 25px;
+  overflow: scroll;
+  position: absolute;
+}
+
+.menu1 {
+  width: 355px;
+  height: 169px;
+  display: flex;
+}
+
+.avito {
+  background-color: #3d3d3d;
+  margin-left: 9px;
+  margin-top: 9px;
+  width: 160px;
+  height: 160px;
+  border-radius: 25px;
+  border: 1px solid #595959;
+}
+
+.cian {
+  background-color: #3d3d3d;
+  margin-left: 9px;
+  margin-top: 9px;
+  width: 160px;
+  height: 160px;
+  border-radius: 25px;
+  border: 1px solid #595959;
+}
+
+.donate {
+  margin-left: 9px;
+  margin-top: 9px;
+  width: 160px;
+  height: 160px;
+  border-radius: 25px;
+}
+
+.donate img {
+  min-height: 160px;
+  min-width: 160px;
+  width: 160px;
+  height: 160px;
+  border-radius: 25px;
+  overflow: scroll;
+  position: absolute;
+}
+
+.icon {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.icon img {
+  min-height: 50px;
+  min-width: 50px;
+  width: 110px;
+  height: 50px;
+  overflow: scroll;
+  position: absolute;
+}
+
+.menu2 {
+  width: 355px;
+  height: 145px;
+  display: flex;
+}
+
+.menu3 {
+  width: 355px;
+  height: 120px;
+  display: flex;
+}
+
+.project {
+  margin-left: 9px;
+  margin-top: 9px;
+  width: 160px;
+  height: 160px;
+  border-radius: 25px;
+}
+
+.project2 video {
+  min-height: 160px;
+  min-width: 160px;
+  width: 160px;
+  height: 160px;
+  border-radius: 25px;
+  overflow: scroll;
+  position: absolute;
+}
+
+.project2 {
+  margin-left: 9px;
+  margin-top: 9px;
+  width: 160px;
+  height: 160px;
+  border-radius: 25px;
+}
+
+.project video {
+  min-height: 160px;
+  min-width: 160px;
+  width: 160px;
+  height: 160px;
+  border-radius: 25px;
+  overflow: scroll;
+  position: absolute;
+}
+
+.button1 {
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(20, 161, 215);
+  border-radius: 10px;
+  border: none;
+}
+
+.text2 {
+  margin-top: 10px;
+  margin-left: 16px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: 'YourCustomFont', sans-serif; /* Apply the font to specific elements */
+}
+
+.button {
+  margin-top: 5px;
+  margin-left: 20px;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(20, 161, 215);
+  border-radius: 10px;
+  border: none;
+}
+
+.pd {
+  margin-top: 10px;
+  margin-left: 65px;
+  width: 20px;
+  height: 20px;
+}
+
+.pd img {
+  min-height: 20px;
+  min-width: 20px;
+  width: 20px;
+  height: 20px;
+  overflow: scroll;
+  position: absolute;
+}
+
+.text3 {
+  margin-left: 38px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-family: 'YourCustomFont', sans-serif; /* Apply the font to specific elements */
+}
+
+.profile {
+  margin-top: 10px;
+  margin-left: 65px;
+  width: 20px;
+  height: 20px;
+}
+
+.profile img {
+  min-height: 20px;
+  min-width: 20px;
+  width: 20px;
+  height: 20px;
+  overflow: scroll;
+  position: absolute;
+}
+
+.text4 {
+  margin-left: 44px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-family: 'YourCustomFont', sans-serif; /* Apply the font to specific elements */
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.prog {
+  width: 340px;
+  height: 200px;
+}
+
+.prog {
+  background-color: #3d3d3d;
+  margin-top: 33px;
+  margin-left: 9px;
+  width: 330px;
+  height: 50px;
+  border: 1px solid #595959;
+  border-radius: 10px;
+}
+
+.text5 {
+  margin-top: 15px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'YourCustomFont', sans-serif; /* Apply the font to specific elements */
+}
+
+.prog2 {
+  background-color: #3d3d3d;
+  margin-top: 28px;
+  width: 330px;
+  height: 50px;
+  border: 1px solid #595959;
+  border-radius: 10px;
+}
